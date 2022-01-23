@@ -19,4 +19,8 @@ public class JocDaus {
     public void setDaus(Dau[] daus) {
         this.daus = daus;
     }
+	public void None(){
+		this.daus = null;
+		return this.daus;
+	}
 }
